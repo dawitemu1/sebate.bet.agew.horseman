@@ -1,0 +1,299 @@
+.atms {
+  padding: 2rem 0;
+}
+
+.atms-header {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.atms-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.atms-header p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+.location-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.location-filter label {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.location-filter select {
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius);
+  background: var(--bg-white);
+  color: var(--text-dark);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.location-filter select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.atm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.atm-card {
+  background: var(--bg-white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  transition: var(--transition);
+}
+
+.atm-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.atm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--bg-light);
+}
+
+.atm-header h3 {
+  color: var(--primary-color);
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.status-badge {
+  background: var(--success-color);
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status-badge.active {
+  background: var(--success-color);
+}
+
+.atm-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.location-info p,
+.hours-info p,
+.additional-info p {
+  margin-bottom: 0.5rem;
+  color: var(--text-light);
+  font-size: 0.9rem;
+}
+
+.location-info strong,
+.hours-info strong,
+.additional-info strong {
+  color: var(--text-dark);
+}
+
+.service-info h4 {
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.service-tag {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+}
+
+.banking-tips {
+  background: var(--bg-light);
+  padding: 3rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 3rem;
+}
+
+.banking-tips h2 {
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.tip-card {
+  background: var(--bg-white);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.tip-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.tip-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.tip-card p {
+  color: var(--text-light);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.emergency-contact {
+  background: var(--bg-white);
+  padding: 3rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.emergency-contact h2 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+
+.emergency-contact p {
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contact-details p {
+  background: var(--bg-light);
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--border-radius);
+  margin: 0;
+  color: var(--text-dark);
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+}
+
+@media (max-width: 768px) {
+  .atms-header {
+    padding: 2rem 0;
+  }
+  
+  .atms-header h1 {
+    font-size: 2rem;
+  }
+  
+  .atms-header p {
+    font-size: 1rem;
+  }
+  
+  .location-filter {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .atm-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .atm-card {
+    padding: 1.5rem;
+  }
+  
+  .atm-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .banking-tips {
+    padding: 2rem 1.5rem;
+  }
+  
+  .tips-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .tip-card {
+    padding: 1.5rem;
+  }
+  
+  .emergency-contact {
+    padding: 2rem 1.5rem;
+  }
+  
+  .contact-details {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .atm-card,
+  .tip-card,
+  .emergency-contact {
+    padding: 1rem;
+  }
+  
+  .services-list {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .service-tag {
+    text-align: center;
+  }
+}

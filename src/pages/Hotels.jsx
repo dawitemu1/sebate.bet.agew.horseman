@@ -8,6 +8,42 @@ const Hotels = () => {
   const hotels = [
     {
       id: 1,
+      name: 'ቺማ ኢንተርናሽናል ሆቴል | Chima International Hotel',
+      nameAmharic: 'ቺማ ኢንተርናሽናል ሆቴል',
+      location: 'ኮሶበር | Kosober',
+      priceRange: 'luxury',
+      pricePerNight: '$80-120',
+      rating: 4.7,
+      facilities: ['Free WiFi', 'Restaurant', 'Conference Hall', 'Parking', 'Room Service', 'Traditional & International Cuisine'],
+      description: 'Premium international hotel located in Kosober, offering modern amenities with traditional Ethiopian hospitality. Perfect for business travelers and cultural event attendees.',
+      distance: '15 min drive to cultural venues',
+      contact: {
+        phone: '+251-11-XXX-XXXX',
+        email: 'info@chimainternational.com',
+        website: 'www.chimainternationalhotel.com'
+      },
+      bookingInfo: 'International standard accommodation. Conference facilities available for cultural events and meetings.'
+    },
+    {
+      id: 2,
+      name: 'ሸገር ሆቴል | Sheger Hotel',
+      nameAmharic: 'ሸገር ሆቴል',
+      location: 'ኮሶበር | Kosober',
+      priceRange: 'mid-range',
+      pricePerNight: '$50-75',
+      rating: 4.3,
+      facilities: ['Free WiFi', 'Restaurant', 'Parking', 'Meeting Room', 'Traditional Ethiopian Cuisine', 'Garden'],
+      description: 'Comfortable mid-range hotel in Kosober offering authentic Ethiopian hospitality with modern conveniences. Popular among cultural visitors and local business travelers.',
+      distance: '12 min drive to cultural venues',
+      contact: {
+        phone: '+251-11-XXX-XXXX',
+        email: 'info@shegerhotel.com',
+        website: 'www.shegerhotelkosober.com'
+      },
+      bookingInfo: 'Family-friendly accommodation. Special rates for cultural event participants and group bookings.'
+    },
+    {
+      id: 3,
       name: 'Agew Heritage Hotel',
       location: 'City Center',
       priceRange: 'budget',
@@ -24,7 +60,7 @@ const Hotels = () => {
       bookingInfo: 'Direct booking available. Group discounts for event attendees.'
     },
     {
-      id: 2,
+      id: 4,
       name: 'Sebet Grand Lodge',
       location: 'Downtown',
       priceRange: 'luxury',
@@ -41,7 +77,7 @@ const Hotels = () => {
       bookingInfo: 'Online booking system. Wedding packages available.'
     },
     {
-      id: 3,
+      id: 5,
       name: 'Community Guest House',
       location: 'Near Cultural Center',
       priceRange: 'budget',
@@ -58,7 +94,7 @@ const Hotels = () => {
       bookingInfo: 'Walk-in welcome. Volunteer discounts available.'
     },
     {
-      id: 4,
+      id: 6,
       name: 'Horseman\'s Inn',
       location: 'Outskirts',
       priceRange: 'mid-range',
@@ -75,7 +111,7 @@ const Hotels = () => {
       bookingInfo: 'Horse boarding requires advance booking. Traditional meal packages available.'
     },
     {
-      id: 5,
+      id: 7,
       name: 'Cultural Suites',
       location: 'Cultural District',
       priceRange: 'mid-range',
@@ -92,7 +128,7 @@ const Hotels = () => {
       bookingInfo: 'Extended stay discounts. Cultural tour packages included.'
     },
     {
-      id: 6,
+      id: 8,
       name: 'Modern Business Hotel',
       location: 'Business District',
       priceRange: 'luxury',
@@ -154,6 +190,7 @@ const Hotels = () => {
             <label>Location:</label>
             <select value={locationFilter} onChange={(e) => setLocationFilter(e.target.value)}>
               <option value="all">All Locations</option>
+              <option value="kosober">ኮሶበር | Kosober</option>
               <option value="center">City Center</option>
               <option value="cultural">Cultural District</option>
               <option value="downtown">Downtown</option>

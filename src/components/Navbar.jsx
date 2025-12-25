@@ -49,9 +49,6 @@ const Navbar = () => {
           <Link to="/atms" className={`nav-link ${isActive('/atms')}`} onClick={() => setIsMenuOpen(false)}>
             ATMs
           </Link>
-          <Link to="/locations" className={`nav-link ${isActive('/locations')}`} onClick={() => setIsMenuOpen(false)}>
-            Locations
-          </Link>
         </div>
         
         <div className={`nav-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>

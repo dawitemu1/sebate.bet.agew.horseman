@@ -17,8 +17,8 @@ const Events = () => {
       description: 'Special cultural event at Injibara Stadium. Keep tuned for more details. Tir 23, 2018 (Ethiopian Calendar).',
       category: 'Cultural Event',
       status: 'Keep Tuned',
-      mapLink: 'https://www.google.com/maps/search/Stadium+near+Injibara/@10.9632224,36.9248162,17z?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D',
-      coordinates: { lat: 10.9632224, lng: 36.9248162 }
+      mapLink: 'https://maps.app.goo.gl/rk9hk198A8NxZjty7',
+      coordinates: { lat: 10.9632224, lng: 36.9293223 }
     },
     {
       id: 2,
@@ -210,6 +210,7 @@ const Events = () => {
               
               <div className="stadium-info">
                 <div className="stadium-details">
+                  <h4>📍 Venue Details</h4>
                   <div className="detail-item">
                     <span className="icon">📅</span>
                     <span>{formatDate('2026-01-31')} - Tir 23, 2018 (Ethiopian Calendar)</span>
@@ -222,10 +223,26 @@ const Events = () => {
                     <span className="icon">🕐</span>
                     <span>8:30 AM</span>
                   </div>
+                  <div className="detail-item">
+                    <span className="icon">🏟️</span>
+                    <span>Multi-purpose sports facility</span>
+                  </div>
+                  <div className="detail-item">
+                    <span className="icon">🚗</span>
+                    <span>Free parking available on-site</span>
+                  </div>
+                  <div className="detail-item">
+                    <span className="icon">♿</span>
+                    <span>Wheelchair accessible entrances</span>
+                  </div>
+                  <div className="detail-item">
+                    <span className="icon">🗺️</span>
+                    <span>Injibara, Awi Zone, Amhara Region</span>
+                  </div>
                 </div>
                 <div className="stadium-map">
                   <iframe
-                    src="https://www.google.com/maps/place/%E1%8A%A5%E1%8A%95%E1%8C%82%E1%89%A3%E1%88%AB+%E1%88%81%E1%88%88%E1%8C%88%E1%89%A5+%E1%88%B5%E1%89%B3%E1%8B%B2%E1%8B%A8%E1%88%9D/@10.9632224,36.9248162,17z/data=!4m10!1m2!2m1!1sStadium+near+Injibara!3m6!1s0x165a9fd97006cbfb:0x6409f94c66741e4d!8m2!3d10.9632224!4d36.9293223!15sChVTdGFkaXVtIG5lYXIgSW5qaWJhcmGSAQdzdGFkaXVtqgFLEAEqCyIHc3RhZGl1bSgAMh8QASIbrMVYi1sLtHAjF_7txutdEw92sVwZat--H5KjMhkQAiIVc3RhZGl1bSBuZWFyIGluampiYXJh4AEA!16s%2Fg%2F11t2r1rbm9?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.8234567890123!2d36.9267474!3d10.9632277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x165a9fd97006cbfb%3A0x6409f94c66741e4d!2z4Yql4YqV4YyC4Ymj4YirIOGIgeGIiOGMiOGJpSDhiLXhibPhi7Lhi6jhiJ0!5e0!3m2!1sen!2set!4v1640995200000!5m2!1sen!2set"
                     width="100%"
                     height="400"
                     style={{ border: 0 }}
@@ -234,6 +251,16 @@ const Events = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                     title="Injibara Stadium Location"
                   ></iframe>
+                  <div className="map-link-container">
+                    <a 
+                      href="https://maps.app.goo.gl/rk9hk198A8NxZjty7" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="map-link-btn"
+                    >
+                      📱 Open in Google Maps
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -243,7 +270,7 @@ const Events = () => {
         {/* Event Information */}
         {activeTab === 'upcoming' && (
           <div className="event-info">
-            <h2>Event Information</h2>
+            <h2>Event Information & Location Services</h2>
             <div className="info-grid">
               <div className="info-item">
                 <h3>🎫 Registration</h3>
@@ -260,6 +287,22 @@ const Events = () => {
               <div className="info-item">
                 <h3>📱 Contact</h3>
                 <p>For event inquiries: events@sebetbetagew.org or +251-11-XXX-XXXX</p>
+              </div>
+              <div className="info-item">
+                <h3>🏨 Nearby Hotels</h3>
+                <p>Find accommodation near event venues. <a href="/hotels" style={{color: 'var(--primary-color)'}}>View Hotels →</a></p>
+              </div>
+              <div className="info-item">
+                <h3>🏦 ATM Services</h3>
+                <p>Banking services and ATM locations near venues. <a href="/atms" style={{color: 'var(--primary-color)'}}>Find ATMs →</a></p>
+              </div>
+              <div className="info-item">
+                <h3>🚌 Transportation</h3>
+                <p>Local buses and minibuses serve the stadium area. Bajaj (three-wheelers) available for short distances.</p>
+              </div>
+              <div className="info-item">
+                <h3>🚗 Parking</h3>
+                <p>Free parking available at Injibara Stadium. Additional parking areas nearby for large events.</p>
               </div>
             </div>
           </div>

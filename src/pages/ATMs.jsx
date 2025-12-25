@@ -193,7 +193,7 @@ const ATMs = () => {
           <h2>Emergency Banking Support</h2>
           <p>If you encounter any banking issues during your visit, contact our local support team:</p>
           <div className="contact-details">
-            <p>📧 Email: banking-support@sebetbetagew.org</p>
+            <p>📧 Email: banking-support@agewhorsmen.org</p>
             <p>📱 Phone: +251-11-XXX-XXXX (24/7 Support)</p>
             <p>🏢 Office: Association Headquarters, City Center</p>
           </div>

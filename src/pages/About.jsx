@@ -8,7 +8,7 @@ const About = () => {
         {/* Header */}
         <header className="about-header">
           <h1>About Us</h1>
-          <p className="subtitle">Sebet Bet Agew Horsemen Association</p>
+          <p className="subtitle">አዊ ፌሬስቴንካው ማቢሪ</p>
         </header>
 
         {/* Background/History Section */}
@@ -17,7 +17,7 @@ const About = () => {
           <div className="content-grid">
             <div className="text-content">
               <p>
-                The Sebet Bet Agew Horsemen Association was founded to preserve and celebrate 
+                The አዊ ፌሬስቴንካው ማቢሪ (Agew Horsemen Association) was founded to preserve and celebrate 
                 the rich cultural heritage of the Agew people, particularly their traditional 
                 relationship with horses and horsemanship.
               </p>

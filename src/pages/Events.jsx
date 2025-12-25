@@ -25,7 +25,7 @@ const Events = () => {
       title: 'Annual Heritage Festival',
       date: '2025-10-15',
       time: '09:00 AM',
-      location: 'Sebet Bet Cultural Center',
+      location: 'Agew Cultural Center',
       description: 'A grand celebration of Agew culture featuring traditional horsemanship demonstrations, cultural performances, and community festivities.',
       category: 'Cultural Festival',
       status: 'Open Registration'
@@ -286,7 +286,7 @@ const Events = () => {
               </div>
               <div className="info-item">
                 <h3>📱 Contact</h3>
-                <p>For event inquiries: events@sebetbetagew.org or +251-11-XXX-XXXX</p>
+                <p>For event inquiries: events@agewhorsmen.org or +251-11-XXX-XXXX</p>
               </div>
               <div className="info-item">
                 <h3>🏨 Nearby Hotels</h3>

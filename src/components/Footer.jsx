@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <p className="copyright">
-            © 2026. All Rights Reserved. አዊ ላጜታ ፌሬስቴንካው ማቢሪ
+            © 2026. All Rights Reserved. አዊ ፌሬስቴንካው ማቢሪ
           </p>
         </div>
       </div>

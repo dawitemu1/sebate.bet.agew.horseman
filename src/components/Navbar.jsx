@@ -20,11 +20,11 @@ const Navbar = () => {
         <div className="nav-logo">
           <Link to="/">
             <div className="logo-container">
-              <img src="/logo.jfif" alt="Sebet Bet Agew Horsemen Association Logo" className="logo-image" />
+              <img src="/logo.jfif" alt="አዊ ፌሬስቴንካው ማቢሪ Logo" className="logo-image" />
               <div className="logo-text">
-                <h2>አዊ ላጜታ ፌሬስቴንካው ማቢሪ</h2>
-                <h3>ሰበት ቤት አገው ፈረሰኞች ማህበር</h3>
-                <p>Sebet Bet Agew Horsemen Association</p>
+                <h2>አዊ ፌሬስቴንካው ማቢሪ</h2>
+                <h3>አገው ፈረሰኞች ማህበር</h3>
+                <p>Agew Horsemen Association</p>
               </div>
             </div>
           </Link>

@@ -286,11 +286,37 @@
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+  .image-slider {
+    margin: 1.5rem;
+  }
+  
+  .news-content {
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .image-slider {
+    height: 70vh;
+    min-height: 500px;
+  }
+  
+  .progress-bar {
+    width: 85%;
+  }
+  
+  .progress-dot {
+    width: 48px;
+    height: 48px;
+  }
+}
+
 @media (max-width: 768px) {
   .image-slider {
-    height: 65vh;
-    min-height: 450px;
-    max-height: 650px;
+    height: 60vh;
+    min-height: 400px;
+    max-height: 600px;
     margin: 1rem;
   }
   
@@ -301,26 +327,26 @@
   }
   
   .prev-btn {
-    left: 20px;
+    left: 15px;
   }
   
   .next-btn {
-    right: 20px;
+    right: 15px;
   }
   
   .progress-bar {
-    bottom: 100px;
+    bottom: 80px;
     width: 90%;
-    padding: 12px;
+    padding: 10px;
   }
   
   .progress-track {
-    margin: 0 25px;
+    margin: 0 20px;
   }
   
   .progress-dot {
-    width: 45px;
-    height: 45px;
+    width: 42px;
+    height: 42px;
     border-width: 3px;
   }
   
@@ -329,12 +355,13 @@
   }
   
   .slider-dots {
-    bottom: 25px;
+    bottom: 20px;
+    gap: 12px;
   }
   
   .dot {
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
   }
   
   .recent-news {
@@ -343,6 +370,7 @@
   
   .recent-news h2 {
     font-size: 2rem;
+    margin-bottom: 1.5rem;
   }
   
   .news-content {
@@ -357,40 +385,65 @@
   .news-item h3 {
     font-size: 1.3rem;
   }
+  
+  .video-item {
+    grid-column: 1;
+  }
 }
 
 @media (max-width: 480px) {
   .image-slider {
     height: 50vh;
-    min-height: 350px;
-    max-height: 480px;
+    min-height: 300px;
+    max-height: 400px;
     margin: 0.5rem;
+    border-radius: 8px;
   }
   
   .slider-btn {
-    width: 45px;
-    height: 45px;
-    font-size: 1.2rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
   }
   
   .progress-bar {
-    bottom: 80px;
+    bottom: 60px;
     width: 95%;
-    padding: 10px;
+    padding: 8px;
   }
   
   .progress-track {
-    margin: 0 20px;
+    margin: 0 15px;
+    height: 6px;
   }
   
   .progress-dot {
-    width: 40px;
-    height: 40px;
-    border-width: 3px;
+    width: 35px;
+    height: 35px;
+    border-width: 2px;
   }
   
   .progress-dot.active {
-    border-width: 4px;
+    border-width: 3px;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  
+  .slider-dots {
+    bottom: 15px;
+    gap: 8px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
   }
   
   .recent-news {
@@ -398,28 +451,62 @@
   }
   
   .recent-news h2 {
-    font-size: 1.8rem;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
   }
   
   .news-content {
     grid-template-columns: 1fr;
     gap: 1rem;
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
   }
   
   .news-item {
-    padding: 1.2rem;
+    padding: 1.25rem;
   }
   
   .news-item h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
   }
   
   .news-item p {
     font-size: 0.9rem;
+    line-height: 1.5;
   }
   
   .video-container {
-    margin: 0.8rem 0;
+    margin: 0.75rem 0;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .image-slider {
+    height: 45vh;
+    min-height: 280px;
+    margin: 0.25rem;
+  }
+  
+  .progress-bar {
+    bottom: 50px;
+    padding: 6px;
+  }
+  
+  .progress-dot {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .recent-news h2 {
+    font-size: 1.5rem;
+  }
+  
+  .news-content {
+    padding: 0 0.5rem;
+  }
+  
+  .news-item {
+    padding: 1rem;
   }
 }

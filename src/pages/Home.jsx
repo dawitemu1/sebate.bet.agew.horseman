@@ -14,6 +14,18 @@ const Home = () => {
       alt: 'Cultural Heritage'
     },
     {
+      src: '/home-images/labalia.jfif',
+      alt: 'Labalia Traditional Ceremony'
+    },
+    {
+      src: '/home-images/lalabiala.jfif',
+      alt: 'Lalabiala Cultural Heritage'
+    },
+    {
+      src: '/home-images/lalibarala.jfif',
+      alt: 'Lalibarala Festival Celebration'
+    },
+    {
       src: '/home-images/download.jfif',
       alt: 'Community Event'
     },

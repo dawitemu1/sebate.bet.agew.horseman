@@ -239,53 +239,7 @@ const Hotels = () => {
           </div>
         </div>
 
-        {/* ATM & Banking Services */}
-        <div className="atm-services">
-          <h2>ATM & Banking Services</h2>
-          <div className="atm-grid">
-            <div className="atm-item">
-              <h3>🏦 Commercial Bank of Ethiopia</h3>
-              <p><strong>Location:</strong> City Center, 2 min walk from Cultural Center</p>
-              <p><strong>Services:</strong> ATM, Currency Exchange, International Cards Accepted</p>
-              <p><strong>Hours:</strong> 24/7 ATM, Bank: 8:00 AM - 5:00 PM</p>
-            </div>
-            <div className="atm-item">
-              <h3>🏧 Dashen Bank ATM</h3>
-              <p><strong>Location:</strong> Downtown Area, near Sebet Grand Lodge</p>
-              <p><strong>Services:</strong> ATM, Mobile Banking, Cash Withdrawal</p>
-              <p><strong>Hours:</strong> 24/7 ATM Service</p>
-            </div>
-            <div className="atm-item">
-              <h3>💳 Bank of Abyssinia</h3>
-              <p><strong>Location:</strong> Business District, 5 min from Modern Business Hotel</p>
-              <p><strong>Services:</strong> ATM, Foreign Exchange, Credit Card Services</p>
-              <p><strong>Hours:</strong> 24/7 ATM, Bank: 8:00 AM - 4:30 PM</p>
-            </div>
-            <div className="atm-item">
-              <h3>🏪 Awash Bank ATM</h3>
-              <p><strong>Location:</strong> Near Community Guest House</p>
-              <p><strong>Services:</strong> ATM, Balance Inquiry, Mini Statements</p>
-              <p><strong>Hours:</strong> 24/7 ATM Service</p>
-            </div>
-          </div>
-          <div className="atm-tips">
-            <h3>💡 Banking Tips for Visitors</h3>
-            <div className="tips-list">
-              <div className="tip">
-                <strong>💰 Cash Recommendations:</strong> Carry some cash as smaller vendors may not accept cards.
-              </div>
-              <div className="tip">
-                <strong>💳 International Cards:</strong> Visa and MasterCard are widely accepted at major ATMs.
-              </div>
-              <div className="tip">
-                <strong>⏰ Best Times:</strong> Use ATMs during daylight hours for safety and avoid peak times.
-              </div>
-              <div className="tip">
-                <strong>📱 Mobile Banking:</strong> Most banks offer mobile apps for balance checking and transfers.
-              </div>
-            </div>
-          </div>
-        </div>
+
 
         {/* Additional Services */}
         <div className="additional-services">

@@ -77,6 +77,12 @@
   align-items: center;
 }
 
+.nav-theme-toggle {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
 .nav-link {
   text-decoration: none;
   color: var(--text-dark);
@@ -173,6 +179,11 @@
     padding: 2rem 0;
     gap: 1rem;
     z-index: 999;
+  }
+  
+  .nav-theme-toggle {
+    margin-left: 0;
+    margin-top: 1rem;
   }
   
   .nav-menu.active {

@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import ThemeToggle from './ThemeToggle'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -49,6 +50,9 @@ const Navbar = () => {
           <Link to="/atms" className={`nav-link ${isActive('/atms')}`} onClick={() => setIsMenuOpen(false)}>
             ATMs
           </Link>
+          <div className="nav-theme-toggle">
+            <ThemeToggle />
+          </div>
         </div>
         
         <div className={`nav-toggle ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>

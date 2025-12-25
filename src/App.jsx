@@ -8,6 +8,7 @@ import Gallery from './pages/Gallery'
 import Events from './pages/Events'
 import Hotels from './pages/Hotels'
 import ATMs from './pages/ATMs'
+import Locations from './pages/Locations'
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/hotels" element={<Hotels />} />
             <Route path="/atms" element={<ATMs />} />
+            <Route path="/locations" element={<Locations />} />
           </Routes>
         </main>
         <Footer />

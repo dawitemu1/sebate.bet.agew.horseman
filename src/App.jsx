@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { ThemeProvider } from './contexts/ThemeContext'
+import { LanguageProvider } from './contexts/LanguageContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -12,24 +13,26 @@ import './App.css'
 
 function App() {
   return (
-    <ThemeProvider>
-      <Router>
-        <div className="App">
-          <Navbar />
-          <main>
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/gallery" element={<Gallery />} />
-              <Route path="/events" element={<Events />} />
-              <Route path="/hotels" element={<Hotels />} />
-              <Route path="/atms" element={<ATMs />} />
-            </Routes>
-          </main>
-          <Footer />
-        </div>
-      </Router>
-    </ThemeProvider>
+    <LanguageProvider>
+      <ThemeProvider>
+        <Router>
+          <div className="App">
+            <Navbar />
+            <main>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/gallery" element={<Gallery />} />
+                <Route path="/events" element={<Events />} />
+                <Route path="/hotels" element={<Hotels />} />
+                <Route path="/atms" element={<ATMs />} />
+              </Routes>
+            </main>
+            <Footer />
+          </div>
+        </Router>
+      </ThemeProvider>
+    </LanguageProvider>
   )
 }
 

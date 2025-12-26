@@ -77,9 +77,10 @@
   align-items: center;
 }
 
-.nav-theme-toggle {
+.nav-controls {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
   margin-left: 1rem;
 }
 
@@ -181,9 +182,11 @@
     z-index: 999;
   }
   
-  .nav-theme-toggle {
+  .nav-controls {
     margin-left: 0;
     margin-top: 1rem;
+    justify-content: center;
+    gap: 1rem;
   }
   
   .nav-menu.active {

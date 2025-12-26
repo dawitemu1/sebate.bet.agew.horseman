@@ -25,7 +25,7 @@ const Events = () => {
       title: 'Annual Heritage Festival',
       date: '2025-10-15',
       time: '09:00 AM',
-      location: 'Agew Cultural Center',
+      location: 'Sebet Bet Cultural Center',
       description: 'A grand celebration of Agew culture featuring traditional horsemanship demonstrations, cultural performances, and community festivities.',
       category: 'Cultural Festival',
       status: 'Open Registration'

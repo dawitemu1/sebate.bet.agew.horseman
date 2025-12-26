@@ -144,38 +144,38 @@ const Home = () => {
         <div className="container">
           <h2>{t('recent_news', {
             en: 'Recent News',
-            ag: 'አዲስ ዜና',
+            ag: '', // Empty for now - will be filled with Agewgna translation
             am: 'አዲስ ዜና'
           })}</h2>
           <div className="news-content">
             <div className="news-item">
               <h3>{t('festival_2025', {
                 en: '2025 Festival',
-                ag: '2025 ፌስቲቫል',
+                ag: '', // Empty for now - will be filled with Agewgna translation
                 am: '2025 ፌስቲቫል'
               })}</h3>
               <p>{t('festival_description', {
                 en: 'Join us for our upcoming cultural celebration featuring traditional horsemanship and community events.',
-                ag: 'በባህላዊ ፈረሰኝነት እና የማህበረሰብ ዝግጅቶች ላይ ያተኮረ የባህል በዓላችን ላይ ይቀላቀሉን።',
+                ag: '', // Empty for now - will be filled with Agewgna translation
                 am: 'በባህላዊ ፈረሰኝነት እና የማህበረሰብ ዝግጅቶች ላይ ያተኮረ የባህል በዓላችን ላይ ይቀላቀሉን።'
               })}</p>
             </div>
             <div className="news-item">
               <h3>{t('heritage_recognition', {
                 en: 'National Heritage Recognition',
-                ag: 'የብሔራዊ ቅርስ እውቅና',
+                ag: '', // Empty for now - will be filled with Agewgna translation
                 am: 'የብሔራዊ ቅርስ እውቅና'
               })}</h3>
               <p>{t('heritage_description', {
                 en: 'Recent information indicates the "Agew Horse Culture" in Ethiopia\'s Awi Zone was recognized as national heritage in 2022, highlighting its significance for its unique horse plow tradition and riders\' socio-cultural events, which include displays of horsemanship like gugis.',
-                ag: 'በኢትዮጵያ አዊ ዞን ውስጥ ያለው "የአገው ፈረስ ባህል" በ2022 እንደ ብሔራዊ ቅርስ እውቅና እንደተሰጠው የቅርብ ጊዜ መረጃዎች ያመለክታሉ፣ ይህም ለልዩ የፈረስ ማረስ ባህል እና የፈረሰኞች ማህበራዊ-ባህላዊ ዝግጅቶች አስፈላጊነቱን ያጎላል።',
+                ag: '', // Empty for now - will be filled with Agewgna translation
                 am: 'በኢትዮጵያ አዊ ዞን ውስጥ ያለው "የአገው ፈረስ ባህል" በ2022 እንደ ብሔራዊ ቅርስ እውቅና እንደተሰጠው የቅርብ ጊዜ መረጃዎች ያመለክታሉ፣ ይህም ለልዩ የፈረስ ማረስ ባህል እና የፈረሰኞች ማህበራዊ-ባህላዊ ዝግጅቶች አስፈላጊነቱን ያጎላል።'
               })}</p>
             </div>
             <div className="news-item video-item">
               <h3>{t('cultural_documentation', {
                 en: 'Latest Cultural Documentation',
-                ag: 'የቅርብ ጊዜ ባህላዊ ሰነዶች',
+                ag: '', // Empty for now - will be filled with Agewgna translation
                 am: 'የቅርብ ጊዜ ባህላዊ ሰነዶች'
               })}</h3>
               <div className="video-container">
@@ -189,14 +189,14 @@ const Home = () => {
               </div>
               <p>{t('documentation_description', {
                 en: 'Comprehensive documentation of our cultural practices and traditions.',
-                ag: 'የባህላዊ ልምዶቻችን እና ወጎቻችን ሰፊ ሰነዶች።',
+                ag: '', // Empty for now - will be filled with Agewgna translation
                 am: 'የባህላዊ ልምዶቻችን እና ወጎቻችን ሰፊ ሰነዶች።'
               })}</p>
             </div>
             <div className="news-item video-item">
               <h3>{t('featured_video', {
                 en: 'Featured Video',
-                ag: 'ተመራጭ ቪዲዮ',
+                ag: '', // Empty for now - will be filled with Agewgna translation
                 am: 'ተመራጭ ቪዲዮ'
               })}</h3>
               <div className="video-container">
@@ -210,7 +210,7 @@ const Home = () => {
               </div>
               <p>{t('video_description', {
                 en: 'Watch our latest video showcasing traditional ceremonies and cultural practices.',
-                ag: 'ባህላዊ ሥነ ሥርዓቶችን እና ባህላዊ ልምዶችን የሚያሳይ የቅርብ ጊዜ ቪዲዮአችንን ይመልከቱ።',
+                ag: '', // Empty for now - will be filled with Agewgna translation
                 am: 'ባህላዊ ሥነ ሥርዓቶችን እና ባህላዊ ልምዶችን የሚያሳይ የቅርብ ጊዜ ቪዲዮአችንን ይመልከቱ።'
               })}</p>
             </div>

@@ -73,15 +73,15 @@
 
 .nav-menu {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
 }
 
 .nav-controls {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-left: 1rem;
+  gap: 0.25rem;
+  margin-left: 0.5rem;
 }
 
 .nav-link {
@@ -141,7 +141,7 @@
   }
   
   .nav-menu {
-    gap: 1.5rem;
+    gap: 1rem;
   }
 }
 
@@ -184,9 +184,9 @@
   
   .nav-controls {
     margin-left: 0;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
   }
   
   .nav-menu.active {
